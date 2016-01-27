@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8DB8781C58BF080055D4C8 /* AnyObjectConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8DB8771C58BF080055D4C8 /* AnyObjectConvertible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8DB87F1C58BF080055D4C8 /* AnyObjectConvertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8DB8741C58BF080055D4C8 /* AnyObjectConvertible.framework */; };
+		EB8DB8841C58BF080055D4C8 /* AnyObjectConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8831C58BF080055D4C8 /* AnyObjectConvertibleTests.swift */; };
+		EB8DB88F1C58BF140055D4C8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB88E1C58BF140055D4C8 /* Box.swift */; };
+		EB8DB8911C58BF2C0055D4C8 /* AnyObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8901C58BF2C0055D4C8 /* AnyObjectConvertible.swift */; };
+		EB8DB8A11C58C11D0055D4C8 /* AnyObjectConvertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8DB8971C58C11D0055D4C8 /* AnyObjectConvertible.framework */; };
+		EB8DB8BD1C58C12C0055D4C8 /* AnyObjectConvertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8DB8B31C58C12C0055D4C8 /* AnyObjectConvertible.framework */; };
+		EB8DB8D71C58C1850055D4C8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB88E1C58BF140055D4C8 /* Box.swift */; };
+		EB8DB8D81C58C1850055D4C8 /* AnyObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8901C58BF2C0055D4C8 /* AnyObjectConvertible.swift */; };
+		EB8DB8D91C58C1890055D4C8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB88E1C58BF140055D4C8 /* Box.swift */; };
+		EB8DB8DA1C58C1890055D4C8 /* AnyObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8901C58BF2C0055D4C8 /* AnyObjectConvertible.swift */; };
+		EB8DB8DB1C58C18B0055D4C8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB88E1C58BF140055D4C8 /* Box.swift */; };
+		EB8DB8DC1C58C18B0055D4C8 /* AnyObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8901C58BF2C0055D4C8 /* AnyObjectConvertible.swift */; };
+		EB8DB8DD1C58C2880055D4C8 /* AnyObjectConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8DB8771C58BF080055D4C8 /* AnyObjectConvertible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8DB8DE1C58C28C0055D4C8 /* AnyObjectConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8DB8771C58BF080055D4C8 /* AnyObjectConvertible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8DB8DF1C58C28F0055D4C8 /* AnyObjectConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8DB8771C58BF080055D4C8 /* AnyObjectConvertible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8DB8E01C58C2B10055D4C8 /* AnyObjectConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8831C58BF080055D4C8 /* AnyObjectConvertibleTests.swift */; };
+		EB8DB8E11C58C2B30055D4C8 /* AnyObjectConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DB8831C58BF080055D4C8 /* AnyObjectConvertibleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB8DB8801C58BF080055D4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DB86B1C58BF080055D4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DB8731C58BF080055D4C8;
+			remoteInfo = AnyObjectConvertible;
+		};
+		EB8DB8A21C58C11D0055D4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DB86B1C58BF080055D4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DB8961C58C11D0055D4C8;
+			remoteInfo = AnyObjectConvertible;
+		};
+		EB8DB8BE1C58C12C0055D4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DB86B1C58BF080055D4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DB8B21C58C12C0055D4C8;
+			remoteInfo = AnyObjectConvertible;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB8DB8741C58BF080055D4C8 /* AnyObjectConvertible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyObjectConvertible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB8771C58BF080055D4C8 /* AnyObjectConvertible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyObjectConvertible.h; sourceTree = "<group>"; };
+		EB8DB8791C58BF080055D4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8DB87E1C58BF080055D4C8 /* AnyObjectConvertibleTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnyObjectConvertibleTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB8831C58BF080055D4C8 /* AnyObjectConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObjectConvertibleTests.swift; sourceTree = "<group>"; };
+		EB8DB8851C58BF080055D4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8DB88E1C58BF140055D4C8 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		EB8DB8901C58BF2C0055D4C8 /* AnyObjectConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObjectConvertible.swift; sourceTree = "<group>"; };
+		EB8DB8971C58C11D0055D4C8 /* AnyObjectConvertible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyObjectConvertible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB8A01C58C11D0055D4C8 /* AnyObjectConvertibleTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnyObjectConvertibleTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB8B31C58C12C0055D4C8 /* AnyObjectConvertible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyObjectConvertible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB8BC1C58C12C0055D4C8 /* AnyObjectConvertibleTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnyObjectConvertibleTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DB8CF1C58C13C0055D4C8 /* AnyObjectConvertible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyObjectConvertible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8DB8701C58BF080055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB87B1C58BF080055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB87F1C58BF080055D4C8 /* AnyObjectConvertible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8931C58C11D0055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB89D1C58C11D0055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8A11C58C11D0055D4C8 /* AnyObjectConvertible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8AF1C58C12C0055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8B91C58C12C0055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8BD1C58C12C0055D4C8 /* AnyObjectConvertible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8CB1C58C13C0055D4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8DB86A1C58BF080055D4C8 = {
+			isa = PBXGroup;
+			children = (
+				EB8DB8761C58BF080055D4C8 /* AnyObjectConvertible */,
+				EB8DB8821C58BF080055D4C8 /* AnyObjectConvertibleTests */,
+				EB8DB8751C58BF080055D4C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8DB8751C58BF080055D4C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB8741C58BF080055D4C8 /* AnyObjectConvertible.framework */,
+				EB8DB87E1C58BF080055D4C8 /* AnyObjectConvertibleTests-iOS.xctest */,
+				EB8DB8971C58C11D0055D4C8 /* AnyObjectConvertible.framework */,
+				EB8DB8A01C58C11D0055D4C8 /* AnyObjectConvertibleTests-Mac.xctest */,
+				EB8DB8B31C58C12C0055D4C8 /* AnyObjectConvertible.framework */,
+				EB8DB8BC1C58C12C0055D4C8 /* AnyObjectConvertibleTests-tvOS.xctest */,
+				EB8DB8CF1C58C13C0055D4C8 /* AnyObjectConvertible.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8DB8761C58BF080055D4C8 /* AnyObjectConvertible */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB8771C58BF080055D4C8 /* AnyObjectConvertible.h */,
+				EB8DB88E1C58BF140055D4C8 /* Box.swift */,
+				EB8DB8901C58BF2C0055D4C8 /* AnyObjectConvertible.swift */,
+				EB8DB8791C58BF080055D4C8 /* Info.plist */,
+			);
+			path = AnyObjectConvertible;
+			sourceTree = "<group>";
+		};
+		EB8DB8821C58BF080055D4C8 /* AnyObjectConvertibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DB8831C58BF080055D4C8 /* AnyObjectConvertibleTests.swift */,
+				EB8DB8851C58BF080055D4C8 /* Info.plist */,
+			);
+			path = AnyObjectConvertibleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EB8DB8711C58BF080055D4C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8781C58BF080055D4C8 /* AnyObjectConvertible.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8941C58C11D0055D4C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8DD1C58C2880055D4C8 /* AnyObjectConvertible.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8B01C58C12C0055D4C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8DE1C58C28C0055D4C8 /* AnyObjectConvertible.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8CC1C58C13C0055D4C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8DF1C58C28F0055D4C8 /* AnyObjectConvertible.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB8DB8731C58BF080055D4C8 /* AnyObjectConvertible-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB8881C58BF080055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-iOS" */;
+			buildPhases = (
+				EB8DB86F1C58BF080055D4C8 /* Sources */,
+				EB8DB8701C58BF080055D4C8 /* Frameworks */,
+				EB8DB8711C58BF080055D4C8 /* Headers */,
+				EB8DB8721C58BF080055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnyObjectConvertible-iOS";
+			productName = AnyObjectConvertible;
+			productReference = EB8DB8741C58BF080055D4C8 /* AnyObjectConvertible.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB8DB87D1C58BF080055D4C8 /* AnyObjectConvertibleTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB88B1C58BF080055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-iOS" */;
+			buildPhases = (
+				EB8DB87A1C58BF080055D4C8 /* Sources */,
+				EB8DB87B1C58BF080055D4C8 /* Frameworks */,
+				EB8DB87C1C58BF080055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DB8811C58BF080055D4C8 /* PBXTargetDependency */,
+			);
+			name = "AnyObjectConvertibleTests-iOS";
+			productName = AnyObjectConvertibleTests;
+			productReference = EB8DB87E1C58BF080055D4C8 /* AnyObjectConvertibleTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB8DB8961C58C11D0055D4C8 /* AnyObjectConvertible-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB8A81C58C11D0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-Mac" */;
+			buildPhases = (
+				EB8DB8921C58C11D0055D4C8 /* Sources */,
+				EB8DB8931C58C11D0055D4C8 /* Frameworks */,
+				EB8DB8941C58C11D0055D4C8 /* Headers */,
+				EB8DB8951C58C11D0055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnyObjectConvertible-Mac";
+			productName = AnyObjectConvertible;
+			productReference = EB8DB8971C58C11D0055D4C8 /* AnyObjectConvertible.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB8DB89F1C58C11D0055D4C8 /* AnyObjectConvertibleTests-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB8AB1C58C11D0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-Mac" */;
+			buildPhases = (
+				EB8DB89C1C58C11D0055D4C8 /* Sources */,
+				EB8DB89D1C58C11D0055D4C8 /* Frameworks */,
+				EB8DB89E1C58C11D0055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DB8A31C58C11D0055D4C8 /* PBXTargetDependency */,
+			);
+			name = "AnyObjectConvertibleTests-Mac";
+			productName = AnyObjectConvertibleTests;
+			productReference = EB8DB8A01C58C11D0055D4C8 /* AnyObjectConvertibleTests-Mac.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB8DB8B21C58C12C0055D4C8 /* AnyObjectConvertible-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB8C41C58C12C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-tvOS" */;
+			buildPhases = (
+				EB8DB8AE1C58C12C0055D4C8 /* Sources */,
+				EB8DB8AF1C58C12C0055D4C8 /* Frameworks */,
+				EB8DB8B01C58C12C0055D4C8 /* Headers */,
+				EB8DB8B11C58C12C0055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnyObjectConvertible-tvOS";
+			productName = AnyObjectConvertible;
+			productReference = EB8DB8B31C58C12C0055D4C8 /* AnyObjectConvertible.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB8DB8BB1C58C12C0055D4C8 /* AnyObjectConvertibleTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB8C71C58C12C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-tvOS" */;
+			buildPhases = (
+				EB8DB8B81C58C12C0055D4C8 /* Sources */,
+				EB8DB8B91C58C12C0055D4C8 /* Frameworks */,
+				EB8DB8BA1C58C12C0055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DB8BF1C58C12C0055D4C8 /* PBXTargetDependency */,
+			);
+			name = "AnyObjectConvertibleTests-tvOS";
+			productName = AnyObjectConvertibleTests;
+			productReference = EB8DB8BC1C58C12C0055D4C8 /* AnyObjectConvertibleTests-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB8DB8CE1C58C13C0055D4C8 /* AnyObjectConvertible-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DB8D41C58C13C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-watchOS" */;
+			buildPhases = (
+				EB8DB8CA1C58C13C0055D4C8 /* Sources */,
+				EB8DB8CB1C58C13C0055D4C8 /* Frameworks */,
+				EB8DB8CC1C58C13C0055D4C8 /* Headers */,
+				EB8DB8CD1C58C13C0055D4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnyObjectConvertible-watchOS";
+			productName = AnyObjectConvertible;
+			productReference = EB8DB8CF1C58C13C0055D4C8 /* AnyObjectConvertible.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8DB86B1C58BF080055D4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tarunon;
+				TargetAttributes = {
+					EB8DB8731C58BF080055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB8DB87D1C58BF080055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB8DB8961C58C11D0055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB8DB89F1C58C11D0055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB8DB8B21C58C12C0055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB8DB8BB1C58C12C0055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB8DB8CE1C58C13C0055D4C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EB8DB86E1C58BF080055D4C8 /* Build configuration list for PBXProject "AnyObjectConvertible" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB8DB86A1C58BF080055D4C8;
+			productRefGroup = EB8DB8751C58BF080055D4C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8DB8731C58BF080055D4C8 /* AnyObjectConvertible-iOS */,
+				EB8DB87D1C58BF080055D4C8 /* AnyObjectConvertibleTests-iOS */,
+				EB8DB8961C58C11D0055D4C8 /* AnyObjectConvertible-Mac */,
+				EB8DB89F1C58C11D0055D4C8 /* AnyObjectConvertibleTests-Mac */,
+				EB8DB8B21C58C12C0055D4C8 /* AnyObjectConvertible-tvOS */,
+				EB8DB8BB1C58C12C0055D4C8 /* AnyObjectConvertibleTests-tvOS */,
+				EB8DB8CE1C58C13C0055D4C8 /* AnyObjectConvertible-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8DB8721C58BF080055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB87C1C58BF080055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8951C58C11D0055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB89E1C58C11D0055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8B11C58C12C0055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8BA1C58C12C0055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8CD1C58C13C0055D4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8DB86F1C58BF080055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB88F1C58BF140055D4C8 /* Box.swift in Sources */,
+				EB8DB8911C58BF2C0055D4C8 /* AnyObjectConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB87A1C58BF080055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8841C58BF080055D4C8 /* AnyObjectConvertibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8921C58C11D0055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8D71C58C1850055D4C8 /* Box.swift in Sources */,
+				EB8DB8D81C58C1850055D4C8 /* AnyObjectConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB89C1C58C11D0055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8E01C58C2B10055D4C8 /* AnyObjectConvertibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8AE1C58C12C0055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8D91C58C1890055D4C8 /* Box.swift in Sources */,
+				EB8DB8DA1C58C1890055D4C8 /* AnyObjectConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8B81C58C12C0055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8E11C58C2B30055D4C8 /* AnyObjectConvertibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DB8CA1C58C13C0055D4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DB8DB1C58C18B0055D4C8 /* Box.swift in Sources */,
+				EB8DB8DC1C58C18B0055D4C8 /* AnyObjectConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8DB8811C58BF080055D4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DB8731C58BF080055D4C8 /* AnyObjectConvertible-iOS */;
+			targetProxy = EB8DB8801C58BF080055D4C8 /* PBXContainerItemProxy */;
+		};
+		EB8DB8A31C58C11D0055D4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DB8961C58C11D0055D4C8 /* AnyObjectConvertible-Mac */;
+			targetProxy = EB8DB8A21C58C11D0055D4C8 /* PBXContainerItemProxy */;
+		};
+		EB8DB8BF1C58C12C0055D4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DB8B21C58C12C0055D4C8 /* AnyObjectConvertible-tvOS */;
+			targetProxy = EB8DB8BE1C58C12C0055D4C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB8DB8861C58BF080055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB8DB8871C58BF080055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB8DB8891C58BF080055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB8DB88A1C58BF080055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EB8DB88C1C58BF080055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnyObjectConvertibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB8DB88D1C58BF080055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnyObjectConvertibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB8DB8A91C58C11D0055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EB8DB8AA1C58C11D0055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EB8DB8AC1C58C11D0055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnyObjectConvertibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB8DB8AD1C58C11D0055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnyObjectConvertibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB8DB8C51C58C12C0055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		EB8DB8C61C58C12C0055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		EB8DB8C81C58C12C0055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnyObjectConvertibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		EB8DB8C91C58C12C0055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnyObjectConvertibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		EB8DB8D51C58C13C0055D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		EB8DB8D61C58C13C0055D4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyObjectConvertible/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
+				PRODUCT_NAME = AnyObjectConvertible;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8DB86E1C58BF080055D4C8 /* Build configuration list for PBXProject "AnyObjectConvertible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8861C58BF080055D4C8 /* Debug */,
+				EB8DB8871C58BF080055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DB8881C58BF080055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8891C58BF080055D4C8 /* Debug */,
+				EB8DB88A1C58BF080055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8DB88B1C58BF080055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB88C1C58BF080055D4C8 /* Debug */,
+				EB8DB88D1C58BF080055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8DB8A81C58C11D0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8A91C58C11D0055D4C8 /* Debug */,
+				EB8DB8AA1C58C11D0055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8DB8AB1C58C11D0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8AC1C58C11D0055D4C8 /* Debug */,
+				EB8DB8AD1C58C11D0055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8DB8C41C58C12C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8C51C58C12C0055D4C8 /* Debug */,
+				EB8DB8C61C58C12C0055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8DB8C71C58C12C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8C81C58C12C0055D4C8 /* Debug */,
+				EB8DB8C91C58C12C0055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8DB8D41C58C13C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB8D51C58C13C0055D4C8 /* Debug */,
+				EB8DB8D61C58C13C0055D4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8DB86B1C58BF080055D4C8 /* Project object */;
+}
