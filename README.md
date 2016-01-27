@@ -31,7 +31,10 @@ let value = notification.object as? YourOwnStruct
 ```
 
 ## Installation
-Copy Box.swift and AnyConvertible.swift in your project.
+Use Carthage.
+```ruby
+github "tarunon/AnyObjectConvertible"
+```
 
 ## License
 MIT
