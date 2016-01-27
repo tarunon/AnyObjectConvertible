@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EB8DB8B21C58C12C0055D4C8"
-               BuildableName = "AnyObjectConvertible-tvOS.framework"
+               BuildableName = "AnyObjectConvertible.framework"
                BlueprintName = "AnyObjectConvertible-tvOS"
                ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB8DB8B21C58C12C0055D4C8"
-            BuildableName = "AnyObjectConvertible-tvOS.framework"
+            BuildableName = "AnyObjectConvertible.framework"
             BlueprintName = "AnyObjectConvertible-tvOS"
             ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB8DB8B21C58C12C0055D4C8"
-            BuildableName = "AnyObjectConvertible-tvOS.framework"
+            BuildableName = "AnyObjectConvertible.framework"
             BlueprintName = "AnyObjectConvertible-tvOS"
             ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB8DB8B21C58C12C0055D4C8"
-            BuildableName = "AnyObjectConvertible-tvOS.framework"
+            BuildableName = "AnyObjectConvertible.framework"
             BlueprintName = "AnyObjectConvertible-tvOS"
             ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
          </BuildableReference>

@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal class Box<T> {
+public class Box<T> {
     let value: T
     init(value: T) {
         self.value = value

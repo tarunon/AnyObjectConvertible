@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import AnyObjectConvertible
+import AnyObjectConvertible
 
 struct A {
     let str: String

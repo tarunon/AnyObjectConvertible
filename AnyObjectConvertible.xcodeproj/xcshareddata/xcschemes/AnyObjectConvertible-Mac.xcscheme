@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EB8DB8961C58C11D0055D4C8"
-               BuildableName = "AnyObjectConvertible-Mac.framework"
+               BuildableName = "AnyObjectConvertible.framework"
                BlueprintName = "AnyObjectConvertible-Mac"
                ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB8DB8961C58C11D0055D4C8"
-            BuildableName = "AnyObjectConvertible-Mac.framework"
+            BuildableName = "AnyObjectConvertible.framework"
             BlueprintName = "AnyObjectConvertible-Mac"
             ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB8DB8961C58C11D0055D4C8"
-            BuildableName = "AnyObjectConvertible-Mac.framework"
+            BuildableName = "AnyObjectConvertible.framework"
             BlueprintName = "AnyObjectConvertible-Mac"
             ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB8DB8961C58C11D0055D4C8"
-            BuildableName = "AnyObjectConvertible-Mac.framework"
+            BuildableName = "AnyObjectConvertible.framework"
             BlueprintName = "AnyObjectConvertible-Mac"
             ReferencedContainer = "container:AnyObjectConvertible.xcodeproj">
          </BuildableReference>
