@@ -14,7 +14,7 @@ class Box<T> {
     self.value = value
   }
 }
-NSNotificationCenter.defaultCenter().postNotificationName("foo", object: Box(YourOwnStruct())) // OK
+NSNotificationCenter.defaultCenter().postNotificationName("foo", object: Box(value: YourOwnStruct())) // OK
 ```
 
 But Box\<T\> unwrap is too lazy.
