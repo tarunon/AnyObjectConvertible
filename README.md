@@ -14,7 +14,7 @@ class Box<T> {
     self.value = value
   }
 }
-NSNotificationCenter.defaultCenter().postNotificationName("foo", object: Box(YourOwnStruct())) // OK
+NSNotificationCenter.defaultCenter().postNotificationName("foo", object: Box(value: YourOwnStruct())) // OK
 ```
 
 But Box\<T\> unwrap is too lazy.
@@ -31,10 +31,7 @@ let value = notification.object as? YourOwnStruct
 ```
 
 ## Installation
-Use carthage.
-```ruby
-github "tarunon/AnyObjectConvertible"
-```
+Copy Box.swift and AnyConvertible.swift in your project.
 
 ## License
 MIT
