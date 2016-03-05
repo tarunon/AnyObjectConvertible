@@ -1,4 +1,6 @@
 # AnyObjectConvertible
+[![Build Status](https://travis-ci.org/tarunon/AnyObjectConvertible.svg?branch=master)](https://travis-ci.org/tarunon/AnyObjectConvertible)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 Convert your own struct/enum to AnyObject easily.
 
 ## Sumally 
