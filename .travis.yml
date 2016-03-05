@@ -3,8 +3,6 @@ matrix:
     - os: osx
       language: objective-c
       osx_image: xcode7.3
-before_install:
-  - carthage bootstrap --verbose
 script:
   - set -o pipefail
   - xcodebuild test -scheme AnyObjectConvertible-Mac -configuration Debug | xcpretty -c
