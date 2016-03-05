@@ -1,0 +1,11 @@
+matrix:
+  include:
+    - os: osx
+      language: objective-c
+      osx_image: xcode7.3
+script:
+  - set -o pipefail
+  - xcodebuild test -scheme AnyObjectConvertible-Mac -configuration Debug | xcpretty -c
+  - xcodebuild test -scheme AnyObjectConvertible-iOS -configuration Debug -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
+  - xcodebuild test -scheme AnyObjectConvertible-tvOS -configuration Debug -sdk appletvsimulator -destination "platform=tvOS Simulator,name=Apple TV 1080p" | xcpretty -c
+  - xcodebuild build -scheme AnyObjectConvertible-watchOS -configuration Debug -sdk watchsimulator -destination "platform=watchOS Simulator,name=Apple Watch - 38mm" | xcpretty -c
