@@ -1,6 +1,8 @@
 # AnyObjectConvertible
 [![Build Status](https://travis-ci.org/tarunon/AnyObjectConvertible.svg?branch=master)](https://travis-ci.org/tarunon/AnyObjectConvertible)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/AnyObjectConvertible.svg?style=flat)](https://cocoapods.org/pods/AnyObjectConvertible)
+
 Convert your own struct/enum to AnyObject easily.
 
 ## Sumally 
@@ -36,6 +38,13 @@ let value = notification.object as? YourOwnStruct
 Use Carthage.
 ```ruby
 github "tarunon/AnyObjectConvertible"
+```
+
+or CocoaPods
+```ruby
+target 'MyApp' do
+  pod 'AnyObjectConvertible', '~> 0.0'
+end
 ```
 
 ## License
