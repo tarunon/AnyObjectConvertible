@@ -60,12 +60,5 @@ github "tarunon/AnyObjectConvertible"
 1. Download and drop ```AnyObjectConvertible.swift``` in your project.  
 2. Congratulations!  
 
-or CocoaPods
-```ruby
-target 'MyApp' do
-  pod 'AnyObjectConvertible', '~> 0.0'
-end
-```
-
 ## License
 MIT
