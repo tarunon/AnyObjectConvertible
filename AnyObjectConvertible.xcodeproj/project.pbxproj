@@ -342,9 +342,11 @@
 				TargetAttributes = {
 					EB8DB8731C58BF080055D4C8 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					EB8DB87D1C58BF080055D4C8 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					EB8DB8961C58C11D0055D4C8 = {
 						CreatedOnToolsVersion = 7.2;
@@ -625,6 +627,7 @@
 				PRODUCT_NAME = AnyObjectConvertible;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -643,6 +646,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertible;
 				PRODUCT_NAME = AnyObjectConvertible;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -653,6 +657,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -663,6 +668,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarunon.AnyObjectConvertibleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -857,6 +863,7 @@
 				EB8DB88A1C58BF080055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8DB88B1C58BF080055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-iOS" */ = {
 			isa = XCConfigurationList;
@@ -865,6 +872,7 @@
 				EB8DB88D1C58BF080055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8DB8A81C58C11D0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-Mac" */ = {
 			isa = XCConfigurationList;
@@ -873,6 +881,7 @@
 				EB8DB8AA1C58C11D0055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8DB8AB1C58C11D0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-Mac" */ = {
 			isa = XCConfigurationList;
@@ -881,6 +890,7 @@
 				EB8DB8AD1C58C11D0055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8DB8C41C58C12C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -889,6 +899,7 @@
 				EB8DB8C61C58C12C0055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8DB8C71C58C12C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertibleTests-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -897,6 +908,7 @@
 				EB8DB8C91C58C12C0055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8DB8D41C58C13C0055D4C8 /* Build configuration list for PBXNativeTarget "AnyObjectConvertible-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -905,6 +917,7 @@
 				EB8DB8D61C58C13C0055D4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

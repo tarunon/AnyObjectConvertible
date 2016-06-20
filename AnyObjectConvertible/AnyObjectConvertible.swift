@@ -25,12 +25,16 @@ public extension AnyObjectConvertible {
         return true
     }
     
-    public static func _forceBridgeFromObjectiveC(source: Box<Self>, inout result: Self?) {
+    public static func _forceBridgeFromObjectiveC(_ source: Box<Self>, result: inout Self?) {
         result = source.value
     }
     
-    public static func _conditionallyBridgeFromObjectiveC(source: Box<Self>, inout result: Self?) -> Bool {
+    public static func _conditionallyBridgeFromObjectiveC(_ source: Box<Self>, result: inout Self?) -> Bool {
         result = source.value
         return true
+    }
+
+    public static func _unconditionallyBridgeFromObjectiveC(_ source: Box<Self>?) -> Self {
+        return source!.value
     }
 }
