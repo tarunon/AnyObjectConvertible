@@ -2,7 +2,7 @@ matrix:
   include:
     - os: osx
       language: objective-c
-      osx_image: xcode7.3
+      osx_image: xcode8
 script:
   - set -o pipefail
   - xcodebuild test -scheme AnyObjectConvertible-Mac -configuration Debug | xcpretty -c
