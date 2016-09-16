@@ -6,6 +6,12 @@
 Convert your own struct/enum to AnyObject easily.
 
 ## Sumally 
+
+<b> We can cast everything as AnyObject at Swift3.0 🎉 </b>
+<b> So, we would not need this library no longer </b>
+
+
+
 In swift, struct or enum cannot convert to AnyObject
 ```swift
 NSNotificationCenter.defaultCenter().postNotificationName("foo", object: YourOwnStruct()) // Fail
