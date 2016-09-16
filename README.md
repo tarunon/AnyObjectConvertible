@@ -7,7 +7,7 @@ Convert your own struct/enum to AnyObject easily.
 
 ## Sumally 
 
-<b> We can cast everything as AnyObject at Swift3.0 🎉 </b>
+<b> We can cast everything as AnyObject at Swift3.0 🎉 </b> <br>
 <b> So, we would not need this library no longer </b>
 
 
